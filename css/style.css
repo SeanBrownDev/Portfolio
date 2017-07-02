@@ -1,0 +1,205 @@
+.sbtitle{
+    padding-top: 200px;
+    font-size-adjust: auto;
+}
+
+.sbtitle h1{
+    font-family: 'Wire One'; 
+    font-size: 60px;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.navbar-brand{
+    font-family: 'Wire One';
+    padding-top: 40px;
+    color: #fff;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.container h2{
+    color: #000000;
+}
+
+.container p{
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.navbar{
+    padding-top: 20px;
+    background-color: #2385e2;
+    border-bottom: none;
+}
+
+.jumbotron{
+    background-color: #2385e2;
+}
+
+.extraspace{
+    padding-bottom: 300px;
+}
+
+#brandimg{
+    padding-top: 30px;
+    float: left;
+    width: 50px;
+    height: auto;
+    padding-right: 10px;
+}
+
+.navitems {
+    padding-top: 70px;
+    float: right;
+}
+
+.navitems a{
+    font-family: 'Wire One'; 
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    transition: 0.5s;
+    
+}
+
+.navitems a:hover{
+    color: #9d9d9d;
+}
+
+.navitems li{
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    padding: 0 15px 0 15px;
+}
+
+.navitems #currentpg{
+    color: #000;
+}
+
+#aboutpic{
+    margin-left: 85px;
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    border: 3px solid #000;
+}
+
+.abouttext{
+    width: 75%;
+    display: inline-block;
+}
+
+.sectiontitle{
+    font-family: 'Archivo Narrow';
+    font-size: 30px;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+.partext{
+    font-family: 'Archivo Narrow';
+    font-size: 18px;
+    padding-left: 40px;;
+    margin-top: 10px;
+}
+
+.partext #link{
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.skill-list{
+    padding-left: 55px;
+}
+
+.bigbullet {
+    font-family: 'Archivo Narrow';
+    margin-top: 15px;
+    list-style-type: disc;
+    font-size: 20px;
+}
+
+.indent{
+    font-family: 'Archivo Narrow';
+    font-size: 18px;
+    list-style-type: square;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.skillpic{
+    padding-left: 0;
+    width: auto;
+    height: 75px;
+}
+
+.skills{
+    padding-top:10px;
+    padding-left:40px;
+}
+
+.skills p{
+    padding-top: 10px;
+    font-family: 'Archivo Narrow';
+    font-size: 18px;
+}
+
+.html5p{
+    padding-left: 8px;
+}
+
+.cssp{
+    padding-left: 12px;
+}
+
+.jsp{
+    padding-left: 4px;
+}
+
+.jqp{
+    padding-left: 16px;
+}
+
+.psp{
+    padding-left: 3px;
+}
+
+.aip{
+    padding-left: 8px;
+}
+
+.sketchp{
+    padding-left: 16px;
+}
+
+.link a{
+    text-decoration: none;
+    color: #000000;
+    transition: 0.5s;
+}
+
+.link a:hover{
+    text-decoration: none;
+    color: #9d9d9d;
+}
+
+#mainform{
+width:960px;
+margin:20px auto;
+padding-top:20px;
+font-family: 'Archivo Narrow', serif;
+
+}
+#form{
+border-radius:2px;
+padding:20px 30px;
+box-shadow:0 0 15px;
+font-size:14px;
+font-weight:bold;
+width:350px;
+margin:20px 0 0 35px;
+float:left;
+
+}
