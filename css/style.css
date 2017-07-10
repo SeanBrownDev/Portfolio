@@ -1,44 +1,44 @@
+/* Version: 1.0.3 */
+
 .sbtitle{
     padding-top: 200px;
     font-size-adjust: auto;
 }
 
 .sbtitle h1{
-    font-family: 'Wire One'; 
-    font-size: 60px;
+    font-family: 'Lato'; 
+    font-size: 50px;
     color: #ffffff;
     padding-bottom: 10px;
 }
 
 .navbar-brand{
-    font-family: 'Wire One';
+    font-family: 'Lato';
     padding-top: 40px;
     color: #fff;
-    font-size: 25px;
+    font-size: 18px;
     transition: 0.5s;
-}
-
-.container h2{
-    color: #000000;
-}
-
-.container p{
-    color: #000000;
-    padding-bottom: 10px;
 }
 
 .navbar{
     padding-top: 20px;
     background-color: #2385e2;
     border-bottom: none;
+    padding-bottom: 20px;
 }
 
 .jumbotron{
     background-color: #2385e2;
 }
 
-.extraspace{
-    padding-bottom: 300px;
+.portfoliopic{
+  width: 300px;
+  height: 175px;
+  border: 1px solid #000;
+}
+
+.portfoliopic:hover{
+    box-shadow: 2px 2px 2px 2px #000;
 }
 
 #brandimg{
@@ -49,38 +49,33 @@
     padding-right: 10px;
 }
 
-.navitems {
+.portfoliop{
+    text-align: center;
+    padding-top: 10px;
+}
+.topnav {
     padding-top: 70px;
     float: right;
 }
 
-.navitems a{
-    font-family: 'Wire One'; 
+.topnav a{
+    font-family: 'Lato'; 
     text-decoration: none;
-    color: #fff;
-    font-size: 35px;
+    color: #fff !important;
+    font-size: 18px;
     transition: 0.5s;
     
 }
 
-.navitems a:hover{
-    color: #9d9d9d;
+.topnav a:hover{
+    color: #9d9d9d !important;
 }
 
-.navitems li{
-    text-align: center;
-    display: inline-block;
-    list-style: none;
-    padding: 0 15px 0 15px;
+#currentpg{
+    color: #000 !important;
 }
 
-.navitems #currentpg{
-    color: #000;
-}
-
-#aboutpic{
-    margin-left: 85px;
-    display: inline-block;
+.aboutpic{
     width: 200px;
     height: auto;
     border: 3px solid #000;
@@ -203,3 +198,36 @@ margin:20px 0 0 35px;
 float:left;
 
 }
+
+@media (max-width : 667px) 
+{ 
+    .col{
+        width: 100%;
+    }
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+    .navbar-brand{
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+    #brandimg{
+        padding-left: 10px;
+        width:50px;
+        height: auto;
+    }
+    .portfoliopic{
+  margin-left: 10px;
+  width: 150px;
+  height: auto;
+  border: 1px solid #000;
+}
+    .portfoliop{
+        font-size: 12px;
+        padding-top: 5px;
+        margin-left: 0;
+    }
+}
+
+

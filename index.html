@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Sean Brown's Web Development Portfolio">
-    <meta name="keywords" content="front-end development, web developer, web designer"
+    <meta name="keywords" content="front-end development, web developer, web designer">
     <meta name="author" content="Sean Brown">
     <link rel="icon" href="../../favicon.ico">
       
     <!-- Link Google Fonts -->
      <link href='https://fonts.googleapis.com/css?family=Archivo+Narrow' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet'> 
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'> 
 
     <title>Sean Brown | Front-End Web Developer, Engineer, MBA</title>
     
@@ -36,9 +36,9 @@
   <body>
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" href="#navbar-collapse-1"  aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -48,50 +48,45 @@
           <img id="brandimg" src="./img/SBlogo.png">
           <a class="navbar-brand" href="index.html">Sean Brown | Front-End Web Developer, Engineer, MBA</a>
           </div>   
-                
-               <div class="navitems">
-         <ul>
+        <div class="collapse navbar-collapse" id="navbar-collapse-1"> 
+         <ul class="nav navbar-nav navbar-right topnav">
           <li><a href="about.html">About</a></li>
           <li><a id="currentpg" href="index.html">Portfolio</a></li>
           <li><a href="resume.html">Resume</a></li>
           <li><a href="contact.html">Contact</a></li>
-          </ul>
+        </ul>
           </div>
        
         </nav>
+        
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <div class="container">
+      <div class="container-fluid">
           <div class="sbtitle">
-        <h1>Front-End Web Developer, Engineer, MBA</h1>
+        <h1><strong>Front-End Web Developer, Engineer, MBA</strong></h1>
         </div>
         <p>Developing high-quality, responsive websites and incredible user experiences</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">View Portfolio ▼</a></p>
+          <button class="btn btn-primary btn-lg" onclick="scrolldown()">View Portfolio ▼</button>
       </div>
-        <div class="extraspace">
-        </div>
     </div>
         
     <!-- Content Section -->
 
-    <div class="container">
+    <div class="container-fluid">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-md-4 col-xs-6">
+          <a href="./GameNews/" target="_blank"><img class="portfoliopic center-block" src="./img/GameNewspic.png" alt="GameNews" ></a>
+          <p class="portfoliop"><strong>Wordpress, HTML, CSS</strong></p>
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-md-4 col-xs-6">
+           <a href="./Euphrates/index.html" target="_blank"><img class="portfoliopic center-block" src="./img/Euphratespic.png" alt="Euphrates"></a>
+          <p class="portfoliop"><strong>HTML, CSS, JavaScript</strong></p>
        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-md-4 col-xs-6">
+           <a href="./PriceTables/index.html" target="_blank"><img class="portfoliopic center-block" src="./img/PricingTablespic.png" alt="Pricing Tables"></a>
+          <p class="portfoliop"><strong>HTML, CSS</strong></p>
         </div>
       </div>
 
@@ -106,7 +101,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./js/jquery-3.2.1.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/script.js"></script>
