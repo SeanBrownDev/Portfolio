@@ -36,7 +36,7 @@
   <body>
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
+      <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" href="#navbar-collapse-1"  aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -57,6 +57,12 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
           </div> 
+          
+           <script> 
+          $('#navbar-collapse-1').on('click',function(){
+              $($(this).data('target')).collapse('toggle');
+          })
+          </script>
        
         </nav>
 
@@ -75,7 +81,7 @@
         
         <br>
         
-    <div class="container-fluid">
+    <div class="container">
         
     <p class="partext">I am a Front-End Developer, graduate of Mechanical and Aerospace Engineering and hold an earned Masters of Business Administration. I have over nine years of experience in the aerospace industry, where I developed several internal software programs that are used daily to create and record manufacturing data, certify aerospace materials, and enable workflow approvals for engineering and manufacturing data changes. I started developing projects in HTML, CSS, JavaScript, and JQuery to expand into website and web application development.</p>
         

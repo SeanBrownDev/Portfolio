@@ -36,7 +36,7 @@
   <body>
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
+      <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" href="#navbar-collapse-1"  aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -56,13 +56,19 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
           </div>
-       
+          
+          <script> 
+          $('#navbar-collapse-1').on('click',function(){
+              $($(this).data('target')).collapse('toggle');
+          })
+          </script>
+        </div>
         </nav>
         
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <div class="container-fluid">
+      <div class="container">
           <div class="sbtitle">
         <h1><strong>Front-End Web Developer, Engineer, MBA</strong></h1>
         </div>
@@ -73,29 +79,32 @@
         
     <!-- Content Section -->
 
-    <div class="container-fluid">
+    <div class="container">
       <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4 col-xs-6">
+      <div class="col">
           <a href="./GameNews/" target="_blank"><img class="portfoliopic center-block" src="./img/GameNewspic.png" alt="GameNews" ></a>
           <p class="portfoliop"><strong>Wordpress, HTML, CSS</strong></p>
         </div>
-        <div class="col-md-4 col-xs-6">
+        <div class="col">
            <a href="./Euphrates/index.html" target="_blank"><img class="portfoliopic center-block" src="./img/Euphratespic.png" alt="Euphrates"></a>
           <p class="portfoliop"><strong>HTML, CSS, JavaScript</strong></p>
        </div>
-        <div class="col-md-4 col-xs-6">
+        <div class="col">
            <a href="./PriceTables/index.html" target="_blank"><img class="portfoliopic center-block" src="./img/PricingTablespic.png" alt="Pricing Tables"></a>
           <p class="portfoliop"><strong>HTML, CSS</strong></p>
         </div>
+    
+          <div class="col">
+           <a href="./psdtohtmlcss/index.html" target="_blank"><img class="portfoliopic center-block bottompic" src="./img/progress.jpg" alt="PSD to HTML/CSS"></a>
+          <p class="portfoliop"><strong><a href="files/progress.jpg" target="_blank">PSD</a> to HTML/CSS</strong></p>
+        </div>
       </div>
-
       <hr>
-
+<div class= container>
       <footer>
         <p>&copy; 2017 Sean Brown</p>
       </footer>
-    </div> <!-- /container -->
+      </div>
 
 
     <!-- Bootstrap core JavaScript

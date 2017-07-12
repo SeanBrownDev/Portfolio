@@ -38,7 +38,7 @@
   <body>
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
+      <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" href="#navbar-collapse-1"  aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -59,11 +59,18 @@
           <li><a id="currentpg" href="contact.html">Contact</a></li>
         </ul>
           </div>
+          
+           <script> 
+          $('#navbar-collapse-1').on('click',function(){
+              $($(this).data('target')).collapse('toggle');
+          })
+          </script>
+          
         </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <div class="container-fluid">
+      <div class="container">
           <div class="sbtitle">
         <h1><Strong>Contact Sean</Strong></h1>
         </div>
@@ -72,9 +79,9 @@
     </div>
 
      <!-- Content Section -->
-    <div class="container-fluid">
+    <div class="container">
         
-    <p class="partext">Contact me at <a id="link" href="mailto:scbrown1986@gmail.com">scbrown1986@gmail.com</a> or at <a id="link" href="https://www.linkedin.com/in/seanbrownengineer" target="_blank">LinkedIn</a> I look forward to hearing from you!</p>
+    <p class="partext">Contact me at <a id="link" href="mailto:scbrown1986@gmail.com">scbrown1986@gmail.com</a> or at <a id="link" href="https://www.linkedin.com/in/seanbrownengineer" target="_blank">LinkedIn</a>. I look forward to hearing from you!</p>
         
       <hr>
 
