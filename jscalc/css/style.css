@@ -1,0 +1,65 @@
+.btn{
+    width: 40px;
+    height: 30px;
+    margin: 3px 3px 3px 3px;
+}
+
+.btn2{
+    width: 90px;
+    height: 30px;
+    margin: 3px 3px 3px 3px;
+}
+
+.btn3{
+    width: 40px;
+    height: 66px;
+    margin: 3px 3px 3px 3px;
+    position: absolute;
+}
+
+.interface{
+    width: 260px;
+    height: 240px;
+    margin-bottom: 20px;
+}
+
+.screen {
+    margin-left: 3px;
+    height: 65px;
+    width: 235px;
+    font-size: 24px;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.calcbody{
+    width: 245px;
+    padding: 20px 6px;
+    border: 2px solid #000;
+    background-color: azure;
+}
+
+.jscalc{
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+#miniscreen{
+    margin: 0 0; 
+    width: 210px;
+    height: 25px;
+    text-align: right;
+    border: none;
+}
+
+#displayscreen{
+    margin: 0 0; 
+    width: 210px;
+    height: 25px;
+    text-align: right;
+    border: none;
+    font-size: 25px;
+}
